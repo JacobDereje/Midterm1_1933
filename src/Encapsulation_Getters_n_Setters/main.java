@@ -13,7 +13,7 @@ public class main {
 
         anime anime = new anime("Ore Monogatari","Romance","Studio MadHouse",9);
 
-        System.out.println(anime.getName());
+        System.out.println(anime.getStudio());
 
 
     }

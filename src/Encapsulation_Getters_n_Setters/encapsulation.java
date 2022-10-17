@@ -13,7 +13,7 @@ public class encapsulation {
 
         anime anime = new anime("Ore Monogatari","Romance","Studio MadHouse",9);
 
-        System.out.println(anime.getMalScore());
+        System.out.println(anime.getName());
 
 
     }

@@ -7,4 +7,16 @@ public class Student {// classes are a way to create anything and assign them va
     String major;
     int age;
     boolean onProbation;
+
+    public Student (double gpa){
+        this.gpa = gpa;
+    }
+
+    public boolean isOnHonorRoll() {
+        if (this.gpa > 3.5){
+            return true;
+        }
+        return false;
+    }
 }
+
